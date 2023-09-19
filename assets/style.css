@@ -1,0 +1,233 @@
+.header {
+    background-image: url(image/wave-header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.title-2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.title-cta {
+    font-weight: 600;
+    background-color: orangered;
+    color: white;
+    padding: 12px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 27px;
+}
+
+.layanan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.layanan-card-margin {
+    margin-top: 40px;
+}
+
+.tentang {
+    background-image: url(image/wave-mid.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.tentang-pading {
+    padding-left: 17px;
+}
+
+.tentang-text-margin {
+    margin-top: 31px;
+}
+
+.tentang-text {
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.profil {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.client {
+    display: flex;
+    justify-content: center;
+}
+
+.client-title {
+    color: #8E2DE2;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.client-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.client-card-margin {
+    margin-top: 30px;
+}
+
+.kontak {
+    margin-top: 70px;
+    background-image: url(image/wave-footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.kontak-margin {
+    padding-top: 27px;
+    margin-left: 15px;
+    width: 300px;
+}
+
+.mt-footer-text {
+    margin-top: 45px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    margin-top: 55px;
+}
+
+
+@media only screen and (orientation: landscape) {
+    .header {
+        background-image: url(image/wave-header-hd.png);
+        height: 500px;
+
+    }
+
+    .title-position-hd {
+        margin-left: 150px;
+    }
+
+    .title {
+        font-size: 80px;
+        font-weight: 700;
+    }
+
+    .title-2 {
+        width: 700px;
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 80px;
+    }
+
+    .title-cta {
+        font-family: 700;
+        font-size: 20px;
+        margin-top: 33px;
+    }
+
+    .layanan {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .layanan-card-margin {
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+
+    .tentang {
+        background-image: url(image/wave-mid-hd.png);
+        height: 800px;
+    }
+
+    .tentang-pading {
+        margin-left: 150px;
+    }
+
+    .profil {
+        width: 250px;
+        border-radius: 50%;
+        margin-top: 110px;
+    }
+
+    .tentang-text {
+        font-size: 30px;
+        font-weight: 600;
+        width: 700px;
+    }
+
+    .tentang-text-margin {
+        margin-top: 60px;
+    }
+
+    .client-title {
+
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .client-data {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 50px;
+        margin-left: 40px;
+
+    }
+
+
+
+    .kontak {
+        background-image: url(image/wave-footer-hd.png);
+        height: 520px;
+    }
+
+    .kontak-margin {
+        padding-top: 170px;
+        margin-left: 150px;
+        width: 600px;
+    }
+
+    .footer-text {
+        font-size: 25px;
+        font-weight: 600;
+
+    }
+
+    .copyright {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 165px;
+    }
+
+
+}
