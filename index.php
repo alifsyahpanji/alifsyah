@@ -88,43 +88,71 @@
         <div class="client-title">Contoh Aplikasi</div>
     </div>
 
-    <div class="client-data">
 
-        <div class="card client-card-margin" style="width: 270px;" data-aos="fade-down">
-            <img src="assets/image/proyek-les.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Les Privat</h5>
-                <p class="card-text">Ini adalah aplikasi yang kami kembangkan untuk mempermudah layanan les privat.</p>
 
-                <div class="mt-4">
-                    <a href="demo/les/client" class="btn-project" target="_blank">Lihat Client</a>
+    <div class="center-client-data">
+        <div class="client-data">
+
+
+
+            <div class="card client-card-margin" style="width: 270px;" data-aos="fade-up">
+                <img src="assets/image/proyek-cafe.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cafe</h5>
+                    <p class="card-text">Ini adalah aplikasi untuk mempermudah pesan menu dan management cafe.</p>
+
+                    <div class="mt-4">
+                        <a href="demo/demo-cafe/client" class="btn-project" target="_blank">Lihat Aplikasi</a>
+                    </div>
+
+                    <div class="mt-4">
+                        <a href="demo/demo-cafe/admin" class="btn-project" target="_blank">Lihat Admin</a>
+                    </div>
+
                 </div>
-
-                <div class="mt-4">
-                    <a href="demo/les/admin" class="btn-project" target="_blank">Lihat Admin</a>
-                </div>
-
             </div>
-        </div>
 
 
-        <div class="card client-card-margin" style="width: 270px;" data-aos="fade-up">
-            <img src="assets/image/proyek-alkes.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Persewaan Alat Kesehatan</h5>
-                <p class="card-text">Ini adalah aplikasi untuk membantu mempermudah management persewaan alat kesehatan.
-                </p>
+            <div class="card client-card-margin" style="width: 270px;" data-aos="fade-down">
+                <img src="assets/image/proyek-les.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Les Privat</h5>
+                    <p class="card-text">Ini adalah aplikasi yang kami kembangkan untuk mempermudah layanan les privat.
+                    </p>
 
+                    <div class="mt-4">
+                        <a href="demo/les/client" class="btn-project" target="_blank">Lihat Aplikasi</a>
+                    </div>
 
-                <div class="mt-4">
-                    <a href="demo/persewaan-alkes/admin" class="btn-project" target="_blank">Lihat Aplikasi</a>
+                    <div class="mt-4">
+                        <a href="demo/les/admin" class="btn-project" target="_blank">Lihat Admin</a>
+                    </div>
+
                 </div>
-
             </div>
+
+
+            <div class="card client-card-margin" style="width: 270px;" data-aos="fade-up">
+                <img src="assets/image/proyek-alkes.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Persewaan Alat Kesehatan</h5>
+                    <p class="card-text">Ini adalah aplikasi untuk membantu mempermudah management persewaan alat
+                        kesehatan.
+                    </p>
+
+
+                    <div class="mt-4">
+                        <a href="demo/persewaan-alkes/admin" class="btn-project" target="_blank">Lihat Aplikasi</a>
+                    </div>
+
+                </div>
+            </div>
+
+
         </div>
-
-
     </div>
+
+
 
     <div class="kontak" data-aos="fade-up">
         <div class="kontak-margin">
@@ -134,11 +162,24 @@
             <div class="footer-text mt-2">
                 Alamat: Jl.Peterongan Tengah No.369 Semarang
             </div>
+            <div class="mt-2">
+                <span><a href="https://www.instagram.com/alifsyahpanji/" target="_blank"><img
+                            src="assets/image/instagram.png" alt="instagram" style="width: 35px;"></a></span>
+
+                <span class="ms-3"><a href="https://www.facebook.com/AlifsyahPanji/" target="_blank"><img
+                            src="assets/image/facebook.png" alt="facebook" style="width: 35px;"></a></span>
+
+            </div>
 
         </div>
 
         <div class="copyright">
-            <div>Alifsyah &copy; 2023</div>
+            <div>Alifsyah &copy;
+                <?php
+                date_default_timezone_set("Asia/Jakarta");
+                echo date("Y");
+                ?>
+            </div>
         </div>
 
 

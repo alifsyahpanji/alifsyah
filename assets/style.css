@@ -80,6 +80,11 @@
     font-weight: 600;
 }
 
+.center-client-data {
+    display: flex;
+    justify-content: center;
+}
+
 .client-data {
     display: flex;
     flex-direction: column;
@@ -108,7 +113,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: 300px;
 }
 
 .kontak-margin {
@@ -215,6 +220,8 @@
         justify-content: center;
         margin-top: 50px;
         margin-left: 40px;
+        flex-wrap: wrap;
+        width: 1000px;
 
     }
 
@@ -245,7 +252,7 @@
     .copyright {
         font-size: 20px;
         font-weight: 700;
-        margin-top: 165px;
+        margin-top: 115px;
     }
 
 
