@@ -33,36 +33,34 @@
 
     <div class="layanan">
 
-        <div class="card layanan-card-margin" style="width: 270px;" data-aos="fade-down">
+        <div class="card layanan-card-margin shadow" style="width: 270px;" data-aos="fade-down">
             <img src="assets/image/layanan-1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
 
-                <p class="card-text">Kami tidak hanya membuat web aplikasi, kami juga menggali dan memahami bisnis Anda
-                    dengan mendalam. </p>
+
 
                 <div class="mt-2">Kami merancang solusi yang sepenuhnya disesuaikan dengan kebutuhan bisnis Anda.</div>
 
             </div>
         </div>
 
-        <div class="card layanan-card-margin" style="width: 270px;" data-aos="fade-up">
+        <div class="card layanan-card-margin shadow" style="width: 270px;" data-aos="fade-up">
             <img src="assets/image/layanan-2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
 
-                <p class="card-text">Kami tidak hanya mengembangkan aplikasi dan meninggalkannya.</p>
+
                 <div class="mt-2">Kami menawarkan
                     layanan pemeliharaan jangka panjang yang mencakup pembaruan dan dukungan teknis berkelanjutan.</div>
 
             </div>
         </div>
 
-        <div class="card layanan-card-margin" style="width: 270px;" data-aos="fade-down">
+        <div class="card layanan-card-margin shadow" style="width: 270px;" data-aos="fade-down">
             <img src="assets/image/layanan-3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
 
-                <p class="card-text">Kami selalu mengikuti perkembangan terbaru dalam teknologi web dan aplikasi. </p>
-                <div class="mt-2">Agar bisnis Anda tetap berada di garis depan dan
-                    bersaing lebih baik di pasar yang berubah dengan cepat.</div>
+
+                <div class="mt-2">Kami selalu mengikuti perkembangan terbaru dalam teknologi web dan aplikasi.</div>
 
             </div>
         </div>
@@ -95,8 +93,8 @@
 
 
 
-            <div class="card client-card-margin" style="width: 270px;" data-aos="fade-up">
-                <img src="assets/image/proyek-cafe.jpg" class="card-img-top" alt="...">
+            <div class="card client-card-margin shadow" style="width: 270px;" data-aos="fade-up">
+                <img src="assets/image/proyek-cafe-purple.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Cafe</h5>
                     <p class="card-text">Ini adalah aplikasi untuk mempermudah pesan menu dan management cafe.</p>
@@ -113,8 +111,8 @@
             </div>
 
 
-            <div class="card client-card-margin" style="width: 270px;" data-aos="fade-down">
-                <img src="assets/image/proyek-les.jpg" class="card-img-top" alt="...">
+            <div class="card client-card-margin shadow" style="width: 270px;" data-aos="fade-down">
+                <img src="assets/image/proyek-les-purple.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Les Privat</h5>
                     <p class="card-text">Ini adalah aplikasi yang kami kembangkan untuk mempermudah layanan les privat.
@@ -132,8 +130,8 @@
             </div>
 
 
-            <div class="card client-card-margin" style="width: 270px;" data-aos="fade-up">
-                <img src="assets/image/proyek-alkes.jpg" class="card-img-top" alt="...">
+            <div class="card client-card-margin shadow" style="width: 270px;" data-aos="fade-up">
+                <img src="assets/image/proyek-alkes-purple.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Persewaan Alat Kesehatan</h5>
                     <p class="card-text">Ini adalah aplikasi untuk membantu mempermudah management persewaan alat
