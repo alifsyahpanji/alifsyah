@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: https://alifsyah.my.id/sitemap.xml
