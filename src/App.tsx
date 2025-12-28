@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Home } from './pages/Home';
 import { Web3GameJourney } from './pages/Web3GameJourney';
+import { SpiritualPath } from './pages/SpiritualPath';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -18,7 +19,7 @@ function App() {
             onClick={() => handleNavigate('home')}
             className="w-full flex justify-center py-6 hover:opacity-80 transition-opacity"
           >
-            <h1 className="text-2xl sm:text-3xl font-light tracking-[0.3em] text-gray-100">
+            <h1 className="text-3xl sm:text-4xl tracking-[0.1em] text-gray-100" style={{ fontFamily: 'Gochi Hand, cursive' }}>
               ALIFSYAH
             </h1>
           </button>
@@ -27,6 +28,7 @@ function App() {
 
       {currentPage === 'home' && <Home onNavigate={handleNavigate} />}
       {currentPage === 'web3' && <Web3GameJourney onNavigate={handleNavigate} />}
+      {currentPage === 'spiritual' && <SpiritualPath onNavigate={handleNavigate} />}
 
       <footer className="border-t border-gray-800/50 py-8 px-4">
         <div className="container mx-auto text-center">

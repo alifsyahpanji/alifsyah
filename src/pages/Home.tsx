@@ -1,4 +1,4 @@
-import { Gamepad2, Sparkles, Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
+import { Gamepad2, Sparkles, Twitter, Instagram } from 'lucide-react';
 
 interface HomeProps {
   onNavigate: (page: string) => void;
@@ -36,7 +36,9 @@ export function Home({ onNavigate }: HomeProps) {
               </div>
             </button>
 
-            <div className="group cursor-pointer bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-800 rounded-2xl p-8 sm:p-10 hover:border-teal-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/10 hover:-translate-y-1">
+            <button
+              onClick={() => onNavigate('spiritual')}
+              className="group bg-gradient-to-br from-gray-900 to-gray-800 border border-gray-800 rounded-2xl p-8 sm:p-10 hover:border-teal-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-teal-500/10 hover:-translate-y-1 text-left w-full">
               <div className="space-y-6">
                 <div className="w-16 h-16 sm:w-20 sm:h-20 mx-auto bg-gradient-to-br from-teal-500 to-cyan-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
                   <Sparkles className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
@@ -48,7 +50,7 @@ export function Home({ onNavigate }: HomeProps) {
                   Refleksi tentang meditasi, kesadaran diri, dan misteri realitas alam semesta.
                 </p>
               </div>
-            </div>
+            </button>
           </div>
         </div>
       </section>
@@ -62,9 +64,11 @@ export function Home({ onNavigate }: HomeProps) {
           <div className="flex flex-col md:flex-row gap-12 items-center md:items-start">
             <div className="flex-shrink-0">
               <div className="w-48 h-48 sm:w-64 sm:h-64 rounded-full bg-gradient-to-br from-amber-500 to-teal-500 p-1">
-                <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
-                  <span className="text-6xl sm:text-7xl font-light text-gray-300">A</span>
-                </div>
+                <img
+                  src="/alifsyah.webp"
+                  alt="Alifsyah Panji"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
             </div>
 
@@ -82,32 +86,22 @@ export function Home({ onNavigate }: HomeProps) {
                 <p className="text-sm uppercase tracking-widest text-gray-500 mb-6">Connect</p>
                 <div className="flex gap-6 justify-center md:justify-start">
                   <a
-                    href="#"
+                    href="https://x.com/alifsyah666"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center hover:border-amber-500/50 hover:bg-gray-700 transition-all duration-300"
                     aria-label="Twitter"
                   >
                     <Twitter className="w-5 h-5" />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/alifsyahpanji"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center hover:border-amber-500/50 hover:bg-gray-700 transition-all duration-300"
                     aria-label="Instagram"
                   >
                     <Instagram className="w-5 h-5" />
-                  </a>
-                  <a
-                    href="#"
-                    className="w-12 h-12 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center hover:border-amber-500/50 hover:bg-gray-700 transition-all duration-300"
-                    aria-label="LinkedIn"
-                  >
-                    <Linkedin className="w-5 h-5" />
-                  </a>
-                  <a
-                    href="#"
-                    className="w-12 h-12 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center hover:border-amber-500/50 hover:bg-gray-700 transition-all duration-300"
-                    aria-label="Email"
-                  >
-                    <Mail className="w-5 h-5" />
                   </a>
                 </div>
               </div>
