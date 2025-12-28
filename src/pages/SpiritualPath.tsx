@@ -6,18 +6,18 @@ interface SpiritualPathProps {
 
 const spiritualTopics = [
   {
-    title: 'Apakah Alam Semesta adalah Simulasi atau Proyeksi Pikiran?',
-    description: 'Perhatikan sekeliling kita. Bisakah kita membuktikan bahwa semua ini nyata? Apakah Alam Semesta adalah Simulasi atau Proyeksi Pikiran? Mungkin saja tekstur dinding yang kita raba hanyalah kode biner, atau pantulan dari pikiran kita sendiri yang diproyeksikan ke dalam kekosongan. Jika demikian, siapa pemrogramnya, dan apa tujuan permainan ini?',
+    title: 'Apakah Alam Semesta adalah simulasi atau proyeksi pikiran?',
+    description: 'Perhatikan sekeliling kita. Bisakah kita membuktikan bahwa semua ini nyata? Apakah Alam Semesta adalah simulasi atau proyeksi pikiran? mungkin saja tekstur dinding yang kita raba hanyalah kode biner, atau pantulan dari pikiran kita sendiri yang diproyeksikan ke dalam kekosongan. Jika demikian, siapa pemrogramnya, dan apa tujuan permainan ini?',
     color: 'from-amber-500 to-orange-600',
   },
   {
     title: 'Apakah kesadaran manusia tidak terbatas pada tubuh fisik?',
-    description: 'Renungkan tentang esensi diri kita. Saat kita menutup mata, ke mana perginya diri kita? Apakah kesadaran manusia tidak terbatas pada tubuh fisik? Bayangkan kesadaran sebagai gelombang, bukan partikel. Gelombang yang melampaui batas-batas otak, meresap ke dalam kain kosmos, mampu melakukan perjalanan ke masa lalu atau masa depan tanpa terikat oleh daging dan tulang. Jika ini benar, kematian hanyalah ilusi atau sebuah transisi, bukan akhir.',
+    description: 'Renungkan tentang esensi diri kita. Saat kita menutup mata, ke mana perginya diri kita? Apakah kesadaran manusia tidak terbatas pada tubuh fisik? bayangkan kesadaran sebagai gelombang, bukan partikel. Gelombang yang melampaui batas-batas otak, meresap ke dalam kain kosmos, mampu melakukan perjalanan ke masa lalu atau masa depan, tanpa terikat oleh daging dan tulang. Jika ini benar, kematian hanyalah ilusi atau sebuah transisi, bukan akhir.',
     color: 'from-teal-500 to-cyan-600',
   },
   {
-    title: 'Apa itu misteri sang Pengamat dalam Menciptakan Realitas?',
-    description: 'Pikirkan kembali momen paling krusial dalam hidup kita. Apa Peran Pengamat dalam Menciptakan Realitas? Sains kuantum berbisik tentang kemungkinan yang tak terbatas hingga kita memilih salah satunya. Setiap kali kita mengamati sesuatu, kita memaksanya menjadi ada. Dunia di sekitar kita tidak ada dalam bentuk yang pasti sampai kita melihatnya. Kita bukan sekadar penonton, Kita adalah penyihir, sang pencipta, yang lukisannya adalah alam semesta ini.',
+    title: 'Apa itu misteri sang pengamat dalam menciptakan realitas?',
+    description: 'Pikirkan kembali momen paling krusial dalam hidup kita. Apa Peran Pengamat dalam menciptakan realitas? sains kuantum berbisik tentang kemungkinan yang tak terbatas, hingga kita memilih salah satunya. Setiap kali kita mengamati sesuatu, kita memaksanya menjadi ada. Dunia di sekitar kita tidak ada dalam bentuk yang pasti, sampai kita melihatnya. Kita bukan sekadar penonton, Kita adalah penyihir, sang pencipta, yang lukisannya adalah alam semesta ini.',
     color: 'from-blue-500 to-indigo-600',
   },
 ];
@@ -43,7 +43,7 @@ export function SpiritualPath({ onNavigate }: SpiritualPathProps) {
 
               <div className="border-l-4 border-amber-500/50 pl-6 py-4">
                 <p className="text-lg sm:text-xl text-gray-300 leading-relaxed font-light italic">
-                  Bagi saya, spiritualitas adalah jembatan sunyi menuju inti eksistensi, sebuah navigasi batin untuk memahami bahasa tak berucap dari sang Pencipta. Saya melihat manusia bukan sebagai entitas yang terpisah, kita adalah cara semesta untuk mengenali dirinya sendiri.
+                  Bagi saya, spiritualitas adalah jembatan sunyi menuju inti eksistensi, sebuah navigasi batin untuk memahami bahasa yang tak terucap dari sang Pencipta. Saya melihat manusia bukan sebagai entitas yang terpisah, kita adalah cara semesta untuk mengenali dirinya sendiri.
                 </p>
               </div>
 

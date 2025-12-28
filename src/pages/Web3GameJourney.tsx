@@ -6,13 +6,13 @@ interface Web3GameJourneyProps {
 
 const games = [
   {
-    title: 'Maple Story',
+    title: 'Maple Story Universe',
     description: 'Petualangan saya di MapleStory Universe benar-benar mendefinisikan ulang konsep gaming, di mana nostalgia dunia Maple yang penuh warna kini berpadu sempurna dengan sistem yang inovatif. Pengalaman mengeksplorasi map ikonik sambil berburu aset digital memberikan kepuasan progres karakter yang jauh lebih bermakna daripada sekadar menaikkan level. Dengan ekosistem yang transparan, setiap item langka yang saya dapatkan menjadikan setiap detik petualangan di dunia virtual ini seru sebagai hiburan.',
     color: 'from-red-500 to-orange-600',
   },
   {
     title: 'Gensokishi',
-    description: 'Bermain Gensokishi Online memberikan pengalaman MMORPG klasik yang luar biasa dengan sentuhan ekonomi modern yang nyata. Menjelajahi dunia fantasi terasa sangat imersif karena setiap item langka yang saya dapatkan dari mengalahkan bos bukan sekadar angka di layar, melainkan aset digital (NFT) bernilai yang bisa diperdagangkan. Kebebasan untuk merancang peralatan kustom melalui fitur UGC (User Generated Content) hingga memiliki lahan strategis di dalam metaverse menjadikan petualangan ini lebih dari sekadar hobi, melainkan ekosistem play to earn yang benar-benar hidup dan menguntungkan.',
+    description: 'Bermain Gensokishi memberikan pengalaman MMORPG klasik yang luar biasa dengan sentuhan ekonomi modern yang nyata. Menjelajahi dunia fantasi terasa sangat imersif karena setiap item langka yang saya dapatkan dari mengalahkan bos bukan sekadar angka di layar, melainkan aset digital (NFT) bernilai yang bisa diperdagangkan. Kebebasan untuk merancang peralatan kustom melalui fitur UGC (User Generated Content) hingga memiliki lahan strategis di dalam metaverse menjadikan petualangan ini lebih dari sekadar hobi, melainkan ekosistem play to earn yang benar-benar hidup dan menguntungkan.',
     color: 'from-purple-500 to-pink-600',
   },
   {
